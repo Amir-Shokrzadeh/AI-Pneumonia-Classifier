@@ -35,11 +35,13 @@ To further enhance performance, I trained two more advanced architectures: Effic
 ------------------------------------------------------------------------------------------------------------------------
 |  Vision Transformer (ViT)  |     70.0%     |         0.26         |          0.96           |           0.65          |
 ------------------------------------------------------------------------------------------------------------------------
+
 ## Conclusion
 The EfficientNet-B0 model emerged as the clear winner. It not only achieved the highest overall accuracy but, more importantly, provided the best balance between correctly identifying healthy patients (65% recall) and not missing sick ones (97% recall). The Vision Transformer, likely due to the limited size of the dataset, struggled with training stability and did not generalize as well as the CNN-based models.
 🖥️ The Web Application
 Here is a screenshot of the final Gradio application in action.
-**** (اینجا باید یک اسکرین‌شات از اپ خودت بگیری، در ریپازیتوری آپلود کنی و آدرسش را جایگزین کنی)
+**** (<img width="2929" height="1714" alt="web-app-pic" src="https://github.com/user-attachments/assets/5631d5d4-8269-4f67-86e0-90971f4f475b" />
+)
 ⚙️ Setup & Usage
 To replicate this project on your local machine, follow these steps:
 1. Clone the repository:
