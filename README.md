@@ -28,13 +28,13 @@ My initial experiments with a standard ResNet-18 model revealed a significant bi
 To further enhance performance, I trained two more advanced architectures: EfficientNet-B0 and a Vision Transformer (ViT-B_16). The final test results are summarized below:
 
 |     Model Architecture     | Test Accuracy | Test Recall (NORMAL) | Test Recall (PNEUMONIA) | F1-Score (Weighted Avg) |
-------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------.
 |    ResNet-18 (Weighted)    |     80.0%     |         0.46         |          1.00           |           0.77          |
-------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------.
 | EfficientNet-B0 (Weighted) |     85.1%     |         0.65         |          0.97           |           0.85          |
-------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------.
 |  Vision Transformer (ViT)  |     70.0%     |         0.26         |          0.96           |           0.65          |
-------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------.
 
 ## Conclusion
 The EfficientNet-B0 model emerged as the clear winner. It not only achieved the highest overall accuracy but, more importantly, provided the best balance between correctly identifying healthy patients (65% recall) and not missing sick ones (97% recall). The Vision Transformer, likely due to the limited size of the dataset, struggled with training stability and did not generalize as well as the CNN-based models.
