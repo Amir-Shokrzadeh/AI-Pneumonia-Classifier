@@ -5,7 +5,7 @@ In this Project, I Compare 3 models and their accuracy on my chosen dataset.
 
 ## 🚀 Live Demo
 You can test the best-performing model (EfficientNet-B0) live in your browser! This web application is hosted on Hugging Face Spaces.
-Click here to access the Gradio Web App (این لینک را بعد از ساخت Space در Hugging Face جایگزین کن)
+Click here to access the Gradio Web App: https://huggingface.co/spaces/AKA-Enzo/Pneuma-Detector
 
 ## Project Overview
 In this project, I tackled the important challenge of detecting pneumonia from chest X-ray images using deep learning. The goal was to develop a reliable classification model by exploring and comparing different modern neural network architectures.
