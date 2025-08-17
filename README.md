@@ -45,8 +45,8 @@ Here is a screenshot of the final Gradio application in action.
 ## ⚙️ Setup & Usage
 To replicate this project on your local machine, follow these steps:
 1. Clone the repository:
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
-cd YOUR-REPO-NAME
+git clone https://github.com/Amir-Shokrzadeh/AI-Pneumonia-Classifier.git
+cd AI-Pneumonia-Classifier
 
 2. Create a Conda environment and install dependencies:
 # Create and activate the environment
@@ -56,12 +56,12 @@ conda activate pneumonia-env
 # Install all required libraries
 pip install -r requirements.txt
 
-3. Download the Dataset:
+## 3. Download the Dataset:
 Download the "Chest X-Ray Images (Pneumonia)" dataset from Kaggle and place the chest_xray folder in the root of the project directory.
-web link: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
-5. Run the Research Notebooks (Optional):
+### web link: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+### 5. Run the Research Notebooks (Optional):
 To see the full research and training process, you can explore the Jupyter notebooks located in the /notebooks directory.
-6. Launch the Web App:
+### 6. Launch the Web App:
 To start the interactive demo, run the following command in your terminal:
 python app.py
 
