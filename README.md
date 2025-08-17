@@ -5,9 +5,9 @@ In this Project, I Compare 3 models and their accuracy on my chosen dataset.
 
 ## 🚀 Live Demo
 You can test the best-performing model (EfficientNet-B0) live in your browser! This web application is hosted on Hugging Face Spaces.
-➡️ Click here to access the Gradio Web App (این لینک را بعد از ساخت Space در Hugging Face جایگزین کن)
+Click here to access the Gradio Web App (این لینک را بعد از ساخت Space در Hugging Face جایگزین کن)
 
-## 📋 Project Overview
+## Project Overview
 In this project, I tackled the important challenge of detecting pneumonia from chest X-ray images using deep learning. The goal was to develop a reliable classification model by exploring and comparing different modern neural network architectures.
 The project follows a complete research cycle: from data analysis and addressing class imbalance to training multiple models, performing a comparative analysis, and finally, deploying the best-performing model as an interactive web application.
 Key Features:
@@ -16,7 +16,7 @@ Key Features:
  * Model Checkpointing: The training script automatically saves the model with the best validation accuracy.
  * Interactive Demo: A user-friendly web app built with Gradio for live inference and demonstration of the final model.
    
-## 🛠️ Tech Stack
+## Tech Stack
  * Programming Language: Python 3.9
  * Core Libraries: PyTorch, Torchvision
  * Data Handling & Analysis: Pandas, NumPy, Scikit-learn
@@ -35,12 +35,12 @@ To further enhance performance, I trained two more advanced architectures: Effic
 
 ## Conclusion
 The EfficientNet-B0 model emerged as the clear winner. It not only achieved the highest overall accuracy but, more importantly, provided the best balance between correctly identifying healthy patients (65% recall) and not missing sick ones (97% recall). The Vision Transformer, likely due to the limited size of the dataset, struggled with training stability and did not generalize as well as the CNN-based models.
-🖥️ The Web Application
+The Web Application
 Here is a screenshot of the final Gradio application in action.
 
 <img width="2929" height="1714" alt="web-app-pic" src="https://github.com/user-attachments/assets/5631d5d4-8269-4f67-86e0-90971f4f475b" />
 
-## ⚙️ Setup & Usage
+## Setup & Usage
 To replicate this project on your local machine, follow these steps:
 1. Clone the repository:
 git clone https://github.com/Amir-Shokrzadeh/AI-Pneumonia-Classifier.git
