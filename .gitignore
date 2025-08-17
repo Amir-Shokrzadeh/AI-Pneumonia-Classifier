@@ -205,3 +205,13 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Ignore ALL saved model files (files ending with .pth)
+*.pth
+
+# Ignore the ENTIRE dataset folder
+chest_xray/
+
+# Ignore the saved_models folder, as we will provide a link instead
+saved_models/
