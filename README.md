@@ -34,7 +34,7 @@ To further enhance performance, I trained two more advanced architectures: Effic
 | EfficientNet-B0 (Weighted) |     85.1%     |         0.65         |          0.97           |           0.85          |
 ------------------------------------------------------------------------------------------------------------------------.
 |  Vision Transformer (ViT)  |     70.0%     |         0.26         |          0.96           |           0.65          |
-------------------------------------------------------------------------------------------------------------------------.
+------------------------------------------------------------------------------------------------------------------------
 
 ## Conclusion
 The EfficientNet-B0 model emerged as the clear winner. It not only achieved the highest overall accuracy but, more importantly, provided the best balance between correctly identifying healthy patients (65% recall) and not missing sick ones (97% recall). The Vision Transformer, likely due to the limited size of the dataset, struggled with training stability and did not generalize as well as the CNN-based models.
